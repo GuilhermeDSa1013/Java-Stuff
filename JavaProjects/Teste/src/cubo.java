@@ -23,7 +23,7 @@ public class cubo {
             //Confere se o resto da divisão entre a raíz quadrada por 1, é zero, se sim, é exata e calcula a raíz cúbica
             if (Math.sqrt(i) % 1 == 0){ 
                 //Confere se a raíz cúbica é exata, se sim, incrementa a saída
-                if  (Math.cbrt(i) % 1 == 0  ){
+                if  (Math.cbrt(i) % 1 == 0){
                     saida++;
                 }
             }
